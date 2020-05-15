@@ -2,85 +2,198 @@
 <h1 Style="color: #551A8B"> Curriculo</h1>
 <br>
 </section>
-
 <img src="https://scontent.fbsb3-1.fna.fbcdn.net/v/t1.0-9/83258688_1950123601797688_1245251181073137664_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_eui2=AeEpGTApPeO6bOtt6G3yd1EhDLTO0uJjdnUMtM7S4mN2dc9KSECCAsK1hjp-iRq-104lQ-QFurzpMk40BV7RZx3P&_nc_ohc=dCuGcywTBgUAX8JcUZD&_nc_ht=scontent.fbsb3-1.fna&oh=c1dfd423139c2c6ce434e27191ecaa14&oe=5ED446DB" width= "200" height= "200" title= "logo" alt="logo"/>
-
 <section>
-<style>
-	
+<style>	
 	h2{color: #7D26CD}
-	
 	p{color: #7A378B}
-	
 	body {
 		background-color: #BEBEBE;
 	}
-	
-</style>
-	
-</>
-
-<section>
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background-color: #ddd;
+		font-family: 'Roboto Condensed';
+	}
+	.nav_tabs{
+		width: 600px;
+		height: 400px;
+		margin: 100px auto;
+		background-color: #fff;
+		position: relative;
+	}
+	.nav_tabs ul{
+		list-style: none;
+	}
+	.nav_tabs ul li{
+		float: left;
+	}
+	.tab_label{
+		display: block;
+		width: 100px;
+		background-color: #7D26CD;
+		padding: 25px;
+		font-size: 20px;
+		color:#fff;
+		cursor: pointer;
+		text-align: center;
+	}
+	.nav_tabs .rd_tab { 
+	display:none;
+	position: absolute;
+}
+.nav_tabs .rd_tab:checked ~ label { 
+	background-color: #e54e43;
+	color:#fff;}
+.tab-content{
+	border-top: solid 5px #e54e43;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	height: 550px;
+	width: 600px;
+	left: 0;	
+}
+.rd_tab:checked ~ .tab-content{
+	display: block;
+}
+.tab-content h2{
+	padding: 10px;
+	color: #7D26CD;
+}
+.tab-content article{
+	padding: 10px;
+	color: #555;
+}
+  </style>
+<nav class="nav_tabs">
+			<ul>
+<li>
+<input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
+<label for="tab1" class="tab_label">Dados</label>
+<div class="tab-content">
+<article>
+  <center>
+  <br>
+    <br>
+   <img src="https://scontent.fbsb3-1.fna.fbcdn.net/v/t1.0-9/83258688_1950123601797688_1245251181073137664_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_eui2=AeEpGTApPeO6bOtt6G3yd1EhDLTO0uJjdnUMtM7S4mN2dc9KSECCAsK1hjp-iRq-104lQ-QFurzpMk40BV7RZx3P&_nc_ohc=dCuGcywTBgUAX8JcUZD&_nc_ht=scontent.fbsb3-1.fna&oh=c1dfd423139c2c6ce434e27191ecaa14&oe=5ED446DB" width= "200" height= "200" title= "logo" alt="logo"/>
+  <br>
+   <br>
 <h2>Nome:</h2>
+   <br>
 <p>Luiz Henrique Fernandes Zamprogno </p>
 </section>
 <section>
+   <br>
 <h2>Idade:</h2>
+   <br>
 <p>19 anos</p>
+   <br>
+ </center>
 </section>
+  </article>
+</div>
+</li>
+<li>
+<input type="radio" name="tabs" class="rd_tab" id="tab2">
+<label for="tab2" class="tab_label">UNB</label>
+<div class="tab-content">
+<article>
+ <center>
 <section>
+  <br>
 <h2>Curso:</h2>
+  <br>
 <p>Engenharia de Software </p>
+  <br>
 </section>
 <section>
 <h2>Atlética:</h2>
+  <br>
+     <img src="https://scontent.fbsb3-1.fna.fbcdn.net/v/t1.0-9/53671902_2124315754323190_9162195046676561920_o.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_eui2=AeFQodjpoAyqlGJYmGWptAms8q0uumqY0cXyrS66apjRxdIy50dP2-VERrFuMX8UJxCK15QY-rp9gplu1zRBsmwm&_nc_ohc=4P2oWcNo95IAX_RRPGS&_nc_ht=scontent.fbsb3-1.fna&oh=2270d5d4c9e991f3f3d0bc04ce550e75&oe=5EE41CAF" width= "200" height= "200" title= "logo" alt="logo"/>
+  <br>
 <p>Pesadelo </p>
+  <br>
 </section>
 <section>
 <h2>Semestre:</h2>
+  <br>
 <p>3 semestre </p>
 </section>
+ </center>
+</article>
+</div>
+</li>
+<li>
+<input type="radio" name="tabs" class="rd_tab" id="tab3">
+<label for="tab3" class="tab_label">Cultura Pop</label>
+<div class="tab-content">
+<article>
+  <center>
 <section>
+  <br>               
 <h2>Desenho Favorito:</h2>
+  <br> 
 <p>Scooby Doo</p>
+    <br>
 </section>
 <section>
 <h2>Saga de Filmes Favorita:</h2>
+    <br>
 <p>Harry Potter </p>
+    <br>
 </section>
 <section>
 <h2>Saga de livros Favorita:</h2>
+    <br>
 <p>Harry Potter </p>
+    <br>
 </section>
 <section>
 <h2>Anime Favorito:</h2>
+<br>
 <p> Yu Yu Hakushu </p>
+<br>
+</center>
 </section>
-<section>
-<h2>Estilo de jogos preferido:</h2>
-<p>Cartas:</p>
-	
-	<ul>
-		
-		<li>Pokémon TCG</li>
+</article>
+</div>
+</li>
+<li>
+<input type="radio" name="tabs" class="rd_tab" id="tab4">
+<label for="tab4" class="tab_label">Jogos</label>
+<div class="tab-content">
+<article>
+<center>
+  <br>
+<h2>Estilo de jogos preferido:<br> <br> Cartas</h2>
+<br>
+<br>
+<p>Pokémon TCG</p>
+<br> <br>
+<p>Yu gi oh</p> 
+<br> <br>
+<p>Magic</p> 
+<br> <br>
+<p>Hearthstone</p>
+<br> <br>
+<p>Truco</p>
+<br> <br>
+<p>Poker</p>
+<br> <br>
+  </center>
+</article>
+</div>
+</li>
+</ul>
+</nav>
 		<br>
-		<img src="https://http2.mlstatic.com/kit-lote-100-cartas-pokemon-tcg-gx-ex-mega-ultra-rara-D_NQ_NP_901624-MLB32344777365_092019-F.webp" width= "375" height= "225" title= "pokémon" alt="Carta Pokémon"/>
-		<br>
-		<br>
-		<li>Yu gi oh</li>
-		<br>
-		<img src="https://ptanime.com/wp-content/uploads/2019/10/Yu-Gi-Oh-cards-cartas-imagem-destaque-v1.jpg" width= "375" height= "225" title= "Yu Gi Oh" alt="Yu Gi Oh"/>
-		<br>
-		<br>
-		<li>Magic </li>
-		<br>
-		
-		<img src="https://http2.mlstatic.com/520-cartas-magic-the-gathering-cardgame-cards-D_NQ_NP_965872-MLB30608966501_052019-F.webp" width= "375" height= "225" title= "Magic" alt="Magic"/>
-		<br>
-		<br>
-		<li>Hearthstone</li>
-		<br>
-		<img src="https://cdn.ligadosgames.com/imagens/arena1.jpg"  width= "375" height= "225" title= "HS" alt="HS"/>
+<img src="https://cdn.ligadosgames.com/imagens/arena1.jpg"  width= "375" height= "225" title= "HS" alt="HS"/>
 		<br>
 		<br>
 		<li>Truco</li>
@@ -89,12 +202,5 @@
 		<br>
 		<br>
 		<li>Poker</li>
-		<br>
-		<img src="https://br.888poker.com/magazine/sites/br01-magazine.888poker.com/files/styles/hp_headline_big/public/2018-05/1200x675_ts-20956_6maxStrategy_mainImage_1447846913607_tcm1530-266106.jpg?itok=p6QppsyG" width= "375" height= "225" title= "Poker" alt="Poker"/>
-		<br>
-		<br>
-		<li> (...) </li>
-		
 	</ul>
-	
 </section>
